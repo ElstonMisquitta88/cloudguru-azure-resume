@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\GitHub\\cloudguru-azure-resume\\Functions\\Test\\test.csproj": {}
+  },
+  "projects": {
+    "d:\\GitHub\\cloudguru-azure-resume\\Functions\\API\\Functions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\API\\Functions.csproj",
+        "projectName": "Functions",
+        "projectPath": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\API\\Functions.csproj",
+        "packagesPath": "C:\\Users\\Elston\\.nuget\\packages\\",
+        "outputPath": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Elston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Elston\\Downloads": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs.Extensions.CosmosDB": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\GitHub\\cloudguru-azure-resume\\Functions\\Test\\test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\Test\\test.csproj",
+        "projectName": "test",
+        "projectPath": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\Test\\test.csproj",
+        "packagesPath": "C:\\Users\\Elston\\.nuget\\packages\\",
+        "outputPath": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Elston\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Elston\\Downloads": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "d:\\GitHub\\cloudguru-azure-resume\\Functions\\API\\Functions.csproj": {
+                "projectPath": "d:\\GitHub\\cloudguru-azure-resume\\Functions\\API\\Functions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
